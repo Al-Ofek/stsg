@@ -2,6 +2,11 @@
 
 This repository contains the source code and data used in "Synthetic Random Environmental Time Series Generation with Similarity Control, Preserving Original Signal's Statistical Characteristics" by Ofek Aloni, Gal Perelman, and Barak Fishbain.
 
+Environmental Modelling & Software 185, 106283. https://doi.org/10.1016/j.envsoft.2024.106283
+
+Preprint available at:
+https://arxiv.org/abs/2502.02392
+
 ## Structure
 stsg.py is the main file, containing the STSG class. It offers methods for importing data, generating synthetic time series using the Fourier method as in the paper, and methods used for calculating statistics and metrics of the generated series.
 
@@ -14,6 +19,3 @@ QuantGAN model was implemented using Pytorch. Since training a GAN is computatio
 
 ### CoSMoS
 Since CoSMoS is available only as an R package at the time of writing, the synthetic data was generated using R, then imported into Python. Working files can be found in the cosmos directory. For more on CoSMoS, see https://CRAN.R-project.org/package=CoSMoS.
-
-
-
